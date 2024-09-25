@@ -89,12 +89,6 @@ document.addEventListener('DOMContentLoaded', () => {
                             <ul>${consHtml}</ul>
                         </div>` : ''}
                     </div>
-                    <div class="card-footer">
-                        <div class="card-footer-buttons">
-                            <a href="${card.link}" class="card-button red-button" target="_blank" rel="noopener noreferrer">${buttonText}</a>
-                            ${card.bloxproducts ? `<a href="https://bloxproducts.com/#f${card.bloxproducts}" class="card-button bloxproducts-button" target="_blank" rel="noopener noreferrer">${card.bloxButtonText || 'View on BloxProducts'}</a>` : ''}
-                        </div>
-                    </div>
                 `;
   
                 cardElement.innerHTML = cardHtml;
